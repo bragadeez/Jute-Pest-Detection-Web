@@ -1,0 +1,15 @@
+# Local virtual environment
+env/
+.venv/
+venv/
+ENV/
+
+# Python compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# User-uploaded temp images
+predict/*
+!predict/.gitkeep
